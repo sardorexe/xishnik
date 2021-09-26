@@ -1,0 +1,25 @@
+.header {
+  background: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  z-index: 9999;
+}
+
+.content h1 {
+  color: #fff;
+}

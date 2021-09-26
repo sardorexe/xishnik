@@ -1,0 +1,12 @@
+.header {
+  background: url(/background.jpg);
+  height: 100vh;
+}
+
+.background {
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,18 @@
+.header {
+  background: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glass {
+  
+}

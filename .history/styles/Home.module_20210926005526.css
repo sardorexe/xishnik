@@ -1,0 +1,34 @@
+.header {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  margin-left: 80px;
+  width: 60%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.918);
+  box-shadow: -93px 0 96px 0 rgba(0, 0, 0, 0.959);
+  backdrop-filter: blur(86px);
+  -webkit-backdrop-filter: blur(86px);
+}
+
+.content h1 {
+  z-index: 9999;
+  color: #fff;
+}

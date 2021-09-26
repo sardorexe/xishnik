@@ -1,0 +1,39 @@
+.header {
+  background: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  width: 60%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.71) 26.12%,
+    rgba(0, 0, 0, 0.71) 31.64%,
+    rgba(0, 0, 0, 0.71) 43.46%
+  );
+  filter: blur(92px);
+  backdrop-filter: bli(94px);
+}
+
+.content h1 {
+  z-index: 9999;
+  color: #fff;
+}

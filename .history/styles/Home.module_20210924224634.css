@@ -1,0 +1,4 @@
+.header {
+    background: linear-gradient(#000, #000), url(/bg.jpg);
+    height: 100vh;
+}
