@@ -1,0 +1,15 @@
+.button {
+  position: relative;
+  border: 1px solid #fff;
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    backgr
+}

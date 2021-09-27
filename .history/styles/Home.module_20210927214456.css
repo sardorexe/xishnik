@@ -1,0 +1,44 @@
+.header {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  margin-left: 80px;
+  width: 60%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+}
+
+.content h1 {
+  border-bottom: 1px solid #fff;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 46px;
+  margin: 0;
+  font-weight: 700;
+  z-index: 9999;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content li {
+  color: rgba(255, 255, 255, 0.274);
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+}
+

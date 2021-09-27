@@ -1,0 +1,75 @@
+.header {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background video {
+  object-fit: cover;
+  width: 40%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.content {
+  margin-left: 80px;
+  width: 60%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  border-bottom: 1px solid #fff;
+  font-family: "Racing Sans One", cursive;
+  font-size: 46px;
+  margin: 0;
+  font-weight: 700;
+  z-index: 9999;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content li {
+  color: rgba(255, 255, 255, 0.274);
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
+
+@media (max-width: 1089px) {
+  .header {
+    justify-content: flex-end;
+  }
+
+  .background {
+    width: 100%;
+  }
+  
+  .background video {
+    width: 45%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .background video {
+    width: 55%;
+  }
+
+  .content {
+    background: #000;
+    padding: 0;
+  }
+}

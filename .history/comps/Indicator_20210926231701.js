@@ -1,0 +1,35 @@
+import { useState, useEffect, useRef } from "react";
+
+export default function Indicator() {
+  const [width, setWidth] = useState(0);
+  const watchScrolling = () => {
+    let winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    let height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    setWidth(scrolled);
+  };
+  return (
+    <>
+      <div className="indicator">
+      </div>
+      <style jsx>{`
+        .indicator {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: %;
+          height: 4px;
+          background: #fff;
+        }
+
+        .item {
+          width: ${width}%;
+          height: 100%;
+        }
+      `}</style>
+    </>
+  );
+}

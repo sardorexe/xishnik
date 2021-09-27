@@ -1,0 +1,17 @@
+.container {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top: 55px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.photos {
+  width: 90%;
+}
